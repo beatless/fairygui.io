@@ -161,4 +161,4 @@ UIConfig.buttonSoundVolume仅用于初始化设置，后续改变是无效的。
 
 ## FairyGUI可以播放视频吗
 
-播放视频的功能Unity有提供，不需要FairyGUI支持。你可以使用一个Loader，然后将视频对象的texture赋值给Loader就可以了。
+播放视频的功能Unity有提供，不需要FairyGUI支持。你可以使用一个Loader，在每一帧中，根据视频对象的texture创建一个NTexture赋值给Loader的Texture。
